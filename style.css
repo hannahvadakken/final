@@ -1,0 +1,101 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1{
+            margin-bottom: 30px;
+            color: #613A3A;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #60993E;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 60vw 15vw;
+            gap: 40px;
+            max-width: 1972px;
+            margin: 40px 40px;
+            padding: 0 20px;
+        }
+
+
+        .rating {
+            color: #ff9800;
+            margin-bottom: 10px;
+        }
+
+        .column > article > p {
+            font-size: 20px;
+            color: #333;
+            line-height: 2.1;
+            margin-bottom: 30px;
+        }
+
+        .title{
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .main-review{
+            border-right: 2px solid #ccc;
+            padding-right: 40px;
+            margin-bottom: 40px;
+        }
+
+        .byline {
+            display: block;
+            font-size: 14px;
+            color: darkslategray;
+            margin-bottom: 20px;
+        }
+
+        table{
+            width: 200%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        td{
+            padding: 5px;
+            padding-right: 20px;
+        }
+        
+        a{
+            color: #60993E;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        hr{
+            margin: 25px;
+        }
+
+        li{
+            font-size: 18px;
+            padding: 15px;
+        }
+
+        h3{
+            color: #60993E;
+        }
+
+        h2{
+            color: #613A3A;
+            margin-bottom: 20px;
+        }
