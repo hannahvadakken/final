@@ -99,3 +99,17 @@
             color: #613A3A;
             margin-bottom: 20px;
         }
+
+        img{
+            display: block;
+            width: 45vw;
+            margin:auto;
+            padding: 25px;
+        }
+        
+        .caption{
+            color: gray;
+            text-align: center;
+            font-style:italic;
+            padding: 10px;
+        }
