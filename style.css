@@ -125,34 +125,34 @@
             
         }
 
-        #gallery .unified-grid {
+        .unified-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr); 
             gap: 20px;
         }
 
-        #gallery .span-all p{
+        .span-all > p{
 
             padding-bottom: 20px;
         }
 
-        #gallery .span-all {
+        .span-all {
             padding-top: 20px;
             grid-column: 1 / -1;
             margin: 0;
         }
 
-        #gallery .separator {
+        separator {
             margin-top: 40px;
         }
 
-        #gallery .gallery-item {
+        .gallery-item {
             justify-self: center;
             grid-column: span 1; 
             margin: 0;          
         }
 
-        #gallery .gallery-img {
+        .gallery-img {
             width: 400px;
             height: auto;
             display: block;
