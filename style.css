@@ -27,6 +27,7 @@
         }
 
         header {
+            margin: 0px;
             background-color: #60993E;
             padding: 20px;
             height: 5vh;
@@ -40,21 +41,6 @@
         .head-img{
             width: 50%;
         }
-
-        .gallery{
-            margin: auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 20px;
-            padding: 20px;
-            width: 1000px;
-        }
-
-        .gallery-img{
-            width: 250px;
-            border-radius: 10px;
-        }
-
 
         .nav{
             display: grid;
@@ -85,10 +71,11 @@
         }
 
         .anchor-nav{
-            margin: 80px 40px;
+            width: 90vw;
+            margin: 80px auto;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            gap: 80px;
+            grid-template-columns: 16vw 16vw 16vw 16vw 16vw;
+            gap: 2vw;
             background-color: #60993E;
         }
 
@@ -117,36 +104,70 @@
             text-decoration-thickness: 2.5px;
         }
 
+        .review-wrapper{
+            display: block;
+            margin: 40px auto;
+            width: 95%;
+        }
+
         .reviews-main{
             display: grid;
-            grid-template-columns: 60vw 15vw;
-            gap: 40px;
-            max-width: 1972px;
-            margin: 40px 40px;
-            padding: 0 20px;
-        }
-        .grid { 
-            display: grid; 
-            grid-template-columns: repeat(3, 1fr); 
-            gap: 5px; 
-            margin-top: 20px;
-            justify-content: center; 
+            grid-template-columns: 2fr 1fr;
+            justify-items: center;
+            gap: 0px;
+
         }
 
-        .image-group {
-            max-width: 1250px;
+        #gallery {
+            display: block;
             margin: 0 auto;
+            width: 75%;
+            
         }
 
-        .image-group > h1{
-            font-size: 300%;
+        #gallery > .unified-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px;
         }
 
+        #gallery > .span-all p{
+
+            padding-bottom: 20px;
+        }
+
+        #gallery > .span-all {
+            padding-top: 20px;
+            grid-column: 1 / -1;
+            margin: 0;
+        }
+
+        #gallery > .separator {
+            margin-top: 40px;
+        }
+
+        #gallery > .gallery-item {
+            justify-self: center;
+            grid-column: span 1; 
+            margin: 0;          
+        }
+
+        #gallery > .gallery-img {
+            width: 400px;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
 
         .rating {
             color: #ff9800;
             margin-bottom: 10px;
         }
+
+        .column{
+            padding: 0px 30px;
+        }
+
 
         .column > article > p {
             
@@ -182,7 +203,7 @@
         }
 
         table{
-            width: 200%;
+            width: 100%;
             margin-top: 20px;
             margin-bottom: 20px;
             
@@ -219,18 +240,40 @@
             color: gray;
             text-align: center;
             font-style:italic;
-            padding: 10px;
         }
 
-        .card > img{
-            padding: 0px;
-            margin: 0px;
-            width: 400px;
-            border-radius: 10px;
+
+        .worldmap {
+            width: 900px;
+            height: 600px;
+            border: solid #5a5a5a 1px;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1b/Heroesjourney.svg');
+            background-size: 900px 600px;
+            padding: 0;
+            margin: 0;
+            position: relative;
         }
+
+        .worldmap-item {
+            height: 24px;
+            position: absolute;
+        }
+
+        #worldmap-item-book {
+            top: 535px;
+            left: 374px;
+        }
+
+        #worldmap-item-shoe {
+            top: 235px;
+            left: 174px;
+        }
+
         .gallery-caption{
+            font-size: 20px;
             text-align: center;
             color: gray;
             font-style: italic;
-            padding: 5px;
+            padding-top: 20px;
         }
+	
