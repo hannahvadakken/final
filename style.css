@@ -90,6 +90,7 @@
         .anchor-nav > a:hover{
             text-decoration-thickness: 3px;
         }
+
         a{
             color: #60993E;
             text-decoration: none;
@@ -132,7 +133,7 @@
         }
 
         .span-all > p{
-
+            font-size: 20px;
             padding-bottom: 20px;
         }
 
@@ -142,7 +143,7 @@
             margin: 0;
         }
 
-        separator {
+        .separator{
             margin-top: 40px;
         }
 
@@ -189,10 +190,7 @@
             padding-right: 40px;
             margin-bottom: 40px;
         }
-        
-        
-
-        
+    
 
         .byline, .back-to-top{
             display: block;
@@ -243,30 +241,155 @@
         }
 
 
-        .worldmap {
+        .map {
             width: 900px;
-            height: 600px;
+            height: 700px;
             border: solid #5a5a5a 1px;
             background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1b/Heroesjourney.svg');
-            background-size: 900px 600px;
+            background-size: 900px 700px;
             padding: 0;
             margin: 0;
             position: relative;
         }
 
-        .worldmap-item {
+        .map-image {
+            transition: 0.15s ease;
             height: 24px;
             position: absolute;
         }
 
-        #worldmap-item-book {
-            top: 535px;
-            left: 374px;
+        .map-image:hover{
+            transition: 0.15s ease;
+            height: 48px;
+            transform: translate(-12px, -12px);
         }
 
-        #worldmap-item-shoe {
-            top: 235px;
-            left: 174px;
+
+        #map-image {
+
+            position: relative;
+            display: inline-block;
+        }
+
+        #map-item-1{
+            top: 200px;
+            left: 425px;
+
+        }
+
+        #description-1{
+            top: 150px;
+            left: 475px;
+
+        }
+
+        #map-item-2{
+            top: 100px;
+            left: 525px;
+
+        }
+
+        #description-2{
+            top: 50px;
+            left: 650px;
+
+        }
+
+        #map-item-3{
+            top: 375px;
+            left: 650px;
+
+        }
+
+        #description-3{
+            top: 325px;
+            left: 725px;
+
+        }
+
+        #map-item-4{
+            top: 225px;
+            left: 750px;
+
+        }
+
+        #description-4{
+            top: 175px;
+            left: 825px;
+
+        }
+
+        #map-item-5{
+            top: 450px;
+            left: 750px;
+
+        }
+
+        #description-5{
+            top: 400px;
+            left: 825px;
+
+        }
+
+        #map-item-6{
+            top: 600px;
+            left: 425px;
+
+        }
+
+        #description-6{
+            top: 550px;
+            left: 475px;
+
+        }
+
+    #map-item-7{
+            top: 550px;
+            left: 225px;
+
+        }
+
+    #description-7{
+            top: 500px;
+            left: 300px;
+
+        }
+
+    #map-item-8{
+            top: 250px;
+            left: 100px;
+
+        }
+
+    #description-8{
+            top: 200px;
+            left: 175px;
+
+        }
+
+
+
+
+
+
+        
+
+        .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 20px;
+            position: absolute;
+            z-index: 1;
+            font-size: 18px;
+            line-height: 2.1;
+        }
+
+        .map-item:hover .tooltiptext {
+            visibility: visible;
         }
 
         .gallery-caption{
@@ -275,5 +398,26 @@
             color: gray;
             font-style: italic;
             padding-top: 20px;
+        }
+
+        a:hover > .hidden{
+            display: absolute;
+        }
+
+        #logo {
+            padding: 0px;
+            border: none;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-top: -30px;
+            width: 40%;
+        }
+
+        .about-para > p{
+            line-height: 2.1;
+            font-size: 28px;
+            padding-bottom: 20px;
+            padding-left: 300px;
+            padding-right: 300px;
         }
 	
