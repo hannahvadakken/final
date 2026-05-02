@@ -123,7 +123,7 @@
         #gallery {
             display: block;
             margin: 0 auto;
-            width: 75%;
+            width: 1000px;
             
         }
 
@@ -155,7 +155,7 @@
         }
 
         .gallery-img {
-            width: 400px;
+            width: 300px;
             height: auto;
             display: block;
             border-radius: 10px;
@@ -246,23 +246,23 @@
             width: 900px;
             height: 700px;
             border: solid #5a5a5a 1px;
-            background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1b/Heroesjourney.svg');
+            background-image: url("img/map.png");
             background-size: 900px 700px;
             padding: 0;
-            margin: 0;
+            margin: 0 auto;
             position: relative;
         }
 
         .map-image {
             transition: 0.15s ease;
-            height: 24px;
+            height: 40px;
             position: absolute;
         }
 
         .map-image:hover{
             transition: 0.15s ease;
-            height: 48px;
-            transform: translate(-12px, -12px);
+            height: 60px;
+            transform: translate(-10px, -10px);
         }
 
 
@@ -273,8 +273,8 @@
         }
 
         #map-item-1{
-            top: 200px;
-            left: 425px;
+            top: 65px;
+            left: 390px;
 
         }
 
@@ -285,8 +285,8 @@
         }
 
         #map-item-2{
-            top: 100px;
-            left: 525px;
+            top: 110px;
+            left: 537px;
 
         }
 
@@ -297,20 +297,20 @@
         }
 
         #map-item-3{
-            top: 375px;
-            left: 650px;
+            top: 300px;
+            left: 640px;
 
         }
 
         #description-3{
             top: 325px;
-            left: 725px;
+            left: 735px;
 
         }
 
         #map-item-4{
-            top: 225px;
-            left: 750px;
+            top: 190px;
+            left: 635px;
 
         }
 
@@ -321,8 +321,8 @@
         }
 
         #map-item-5{
-            top: 450px;
-            left: 750px;
+            top: 425px;
+            left: 620px;
 
         }
 
@@ -333,8 +333,8 @@
         }
 
         #map-item-6{
-            top: 600px;
-            left: 425px;
+            top: 570px;
+            left: 520px;
 
         }
 
@@ -345,20 +345,20 @@
         }
 
     #map-item-7{
-            top: 550px;
-            left: 225px;
+            top: 590px;
+            left: 310px;
 
         }
 
     #description-7{
-            top: 500px;
+            top: 550px;
             left: 300px;
 
         }
 
     #map-item-8{
-            top: 250px;
-            left: 100px;
+            top: 450px;
+            left: 160px;
 
         }
 
@@ -367,6 +367,19 @@
             left: 175px;
 
         }
+
+    #map-item-9{
+            top: 250px;
+            left: 150px;
+
+        }
+
+    #description-9{
+            top: 200px;
+            left: 175px;
+
+        }
+
 
 
     .team-pic{
@@ -381,8 +394,6 @@
     .about-column{
         height: 600px;
     }
-
-        
 
         .tooltiptext {
             visibility: hidden;
@@ -425,7 +436,7 @@
 
         .about-para > p{
             line-height: 2.1;
-            font-size: 28px;
+            font-size: 24px;
             padding-bottom: 20px;
             padding-left: 300px;
             padding-right: 300px;
